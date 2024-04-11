@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id" translatable="false">pAoK7BnE</string>
+
+    <string name="token" translatable="false">pAoK7BnE._GZ6ZYz2hdsUngodL8X6CLFUrzeeeQ9CDoCwMItvd2w=.eyJleHBpcmVBdCI6MTczMjk2MDE0NjEyMiwicm9vbUlkIjoiODg4ODg4ODg4Iiwic2VydmljZUNvZGUiOiJydGNfdmlkZW9fY2FsbCJ9</string>
+
+    <string name="fusion_token" translatable="false">pAoK7BnE.KoX7ppxIz60SPWVfE-xjcnRC5D-hrhdHxtuj9WfDA0E=.eyJleHBpcmVBdCI6MTczMjk2MDIwNzg3MSwicm9vbUlkIjoiOTk5OTk5OTk5Iiwic2VydmljZUNvZGUiOiJydGNfdmlkZW9fZnVzaW9uX2NhbGwifQ==</string>
+
+</resources>
