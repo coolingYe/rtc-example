@@ -9,18 +9,18 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.alibaba.fastjson.JSONArray
-import com.zeewain.rtc_example.databinding.ActivityFusionBinding
 import com.zeewain.common.utils.CommonUtils
 import com.zeewain.rtc.IRtcEngineEventHandler
 import com.zeewain.rtc.RtcEngine
 import com.zeewain.rtc.RtcEngineConfig
 import com.zeewain.rtc.model.CameraConfig
+import com.zeewain.rtc_example.databinding.ActivityFusionVideoBinding
 import pub.devrel.easypermissions.EasyPermissions
 import java.util.Objects
 
-class FusionActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
+class FusionVideoActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
 
-    private lateinit var mBinding: ActivityFusionBinding
+    private lateinit var mBinding: ActivityFusionVideoBinding
 
     private lateinit var mConfig: RtcEngineConfig
 
@@ -34,7 +34,7 @@ class FusionActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = DataBindingUtil.setContentView(this, R.layout.activity_fusion)
+        mBinding = DataBindingUtil.setContentView(this, R.layout.activity_fusion_video)
         mHandler = Handler(Looper.getMainLooper())
 
         checkPermission()
@@ -61,7 +61,7 @@ class FusionActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks 
         // Create RtcEngineConfig object.
         mConfig = RtcEngineConfig()
         mConfig.apply {
-            context = this@FusionActivity
+            context = this@FusionVideoActivity
             // Channel Type, Normal: 0, Fusion: 1.
             channelProfile = RtcEngine.CHANNEL_TYPE_FUSION
             // Room ID, App ID, Token generated in the console.
@@ -124,7 +124,7 @@ class FusionActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks 
 
         override fun onUserMessage(p0: String, p1: String) {
             mHandler.post {
-                Toast.makeText(this@FusionActivity, p1, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@FusionVideoActivity, p1, Toast.LENGTH_SHORT).show()
             }
         }
 

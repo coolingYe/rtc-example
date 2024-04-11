@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         mBinding.btnFusion.setOnClickListener {
-            startActivity(Intent(this, FusionActivity::class.java))
+            startActivity(Intent(this, FusionVideoActivity::class.java))
         }
     }
 

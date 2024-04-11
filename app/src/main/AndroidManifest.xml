@@ -24,7 +24,7 @@
 
         <activity android:name=".VideoActivity" android:exported="false"/>
 
-        <activity android:name=".FusionActivity" android:exported="false" android:screenOrientation="landscape"/>
+        <activity android:name=".FusionVideoActivity" android:exported="false" android:screenOrientation="landscape"/>
 
     </application>
 
