@@ -1,4 +1,4 @@
-package com.example.rtc_example
+package com.zeewain.rtc_example
 
 import android.app.Application
 import com.zeewain.rtc.RtcFactory

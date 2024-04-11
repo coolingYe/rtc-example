@@ -1,4 +1,4 @@
-package com.example.rtc_example
+package com.zeewain.rtc_example
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

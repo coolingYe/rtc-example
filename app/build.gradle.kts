@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rtc_example"
+    namespace = "com.zeewain.rtc_example"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.rtc_example"
+        applicationId = "com.zeewain.rtc_example"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

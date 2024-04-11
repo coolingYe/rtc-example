@@ -1,4 +1,4 @@
-package com.example.rtc_example
+package com.zeewain.rtc_example
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.rtc_example.databinding.ActivityMainBinding
+import com.zeewain.rtc_example.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
